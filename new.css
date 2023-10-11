@@ -1,0 +1,123 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 242, 245);
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.left {
+  width: 194px;
+  height: 22px;
+  float: left;
+  padding: 28px;
+  margin: -24px;
+}
+.right {
+  height: 75px;
+  background-color: #f0f2f5;
+  margin-bottom: 15px;
+}
+.left a {
+  color: rgb(194, 206, 217);
+  font-size: 35px;
+  margin-left: 15px;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+ul li {
+  float: right;
+  padding: 28px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+ul li a {
+  color: rgb(10, 7, 7);
+}
+.logo {
+  height: 63px;
+  width: 335px;
+  margin-left: 225px;
+  margin-top: 159px;
+}
+h2 {
+  width: 436px;
+  height: 86px;
+  margin-left: 264px;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  display: inline;
+  position: absolute;
+  top: 151px;
+  right: 278px;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  background-color: #f0f2f5;
+}
+.container {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  /* flex-direction: column; */
+  text-align: center;
+  width: 369px;
+  height: 350px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  margin: 25px;
+}
+.input {
+  margin-bottom: 14px;
+  border-radius: 15px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.Email {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 328px;
+  background-color: white;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 7px;
+}
+
+.password {
+  background-color: white;
+  display: inline-block;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 7px;
+}
+
+.btn {
+  background-color: #1877f2;
+  display: inline-block;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+.frgt {
+  color: #1877f2;
+}
+.frgt:hover {
+  text-decoration: underline;
+}
